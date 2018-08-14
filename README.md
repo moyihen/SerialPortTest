@@ -7,6 +7,7 @@
 3.发送数据 serialHelper.send(MyFunc.hexToByteArr("F200000343303403B5"));
 
 4 接收数据 serialHelper.setOnReceiveListener(this);
+
 /**
      * 接收的数据
      *
