@@ -1,6 +1,6 @@
   简单的串口通讯 发送和接收数据.
   
-1.配置 SerialHelper serialHelper = new SerialHelper("/dev/ttyUSB0", 9600);
+1.配置参数 SerialHelper serialHelper = new SerialHelper("/dev/ttyUSB0", 9600);
 
 2.打开连接串口 serialHelper.open();
 
