@@ -13,6 +13,7 @@
      *
      * @param data
      */
+     
     @Override
     public void onReceive(byte[] data,int size) {
         //这边可根据协议 做具体的解析.
