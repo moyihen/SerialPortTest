@@ -1,12 +1,12 @@
-  简单的串口通讯 发送和接收数据.
+  ##### 简单的串口通讯 发送和接收数据.
   
-1.配置参数 SerialHelper serialHelper = new SerialHelper("/dev/ttyUSB0", 9600);
+###### 1.配置参数 SerialHelper serialHelper = new SerialHelper("/dev/ttyUSB0", 9600);
 
-2.打开连接串口 serialHelper.open();
+###### 2.打开连接串口 serialHelper.open();
 
-3.发送数据 serialHelper.send(MyFunc.hexToByteArr("F200000343303403B5"));
+###### 3.发送数据 serialHelper.send(MyFunc.hexToByteArr("F200000343303403B5"));
 
-4 接收数据 serialHelper.setOnReceiveListener(this);
+###### 4 接收数据 serialHelper.setOnReceiveListener(this);
 
     @Override
     public void onReceive(byte[] data,int size) {
