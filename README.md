@@ -1,4 +1,4 @@
-  ##### 简单的串口通讯 发送和接收数据.
+  ##### 记录简单的串口通讯 发送和接收数据.
   
 ###### 1.配置参数 SerialHelper serialHelper = new SerialHelper("/dev/ttyUSB0", 9600);
 
